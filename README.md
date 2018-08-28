@@ -17,13 +17,15 @@ First of all we need a couple of **FREE** accounts:
 
 ## Configuring local environment
 
-1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, please install the **brew cli** following official [instructions][brew]. This is going to be really useful from now on.
+1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, please install the **brew cli** following official [instructions][brew]. This is going to be really useful from now on. Linux users should have already by default apt-get or yum.
 
 2. Install the **Google Cloud SDK** following official [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
 
 3. Install the **Kubectl CLI** following official [instructions][kubectl]
 
 4. Install the **Minikube CLI** following official [instructions][minikube].
+
+**PLEASE NOTE: in this [installation-instructions][local-instructions] subfolder you can also find some examples in order to install the tools**
 
 **PLEASE NOTE: We will try to work on the GCP, but if for any reason this is not going to work, the Minikube is a pretty good alternative.**
 
@@ -49,6 +51,7 @@ First of all we need a couple of **FREE** accounts:
 
 <!-- Referenced links -->
 [github]: https://github.com/join "GitHub"
+[local-instructions]: https://github.com/Solidarchitectures/k8s-jx-workshop/tree/master/installation-instructions "Instructions"
 [google]: https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&hl=en&flowName=GlifWebSignIn&flowEntry=SignUp "Google"
 [gcp]: https://console.cloud.google.com/freetrial?_ga=2.75722837.-1917212227.1535443408 "Google Cloud Platform"
 [brew]: https://brew.sh/ "brew"
