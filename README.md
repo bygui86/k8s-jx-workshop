@@ -19,11 +19,11 @@ First of all we need a couple of **FREE** accounts:
 
 1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, install **brew** following official [instructions][brew]. This is ging to be really useful from now on.
 
-2. Install the **Google Cloud SDK** following official [instrucstions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
+2. Install the **Google Cloud SDK** following official [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
 
-3. Install **Kubectl** following official [instrucstions][kubectl]
+3. Install **Kubectl CLI** following official [instructions][kubectl]
 
-4. Install **Minikube** following official [instrucstions][minikube].
+4. Install the **Minikube CLI** following official [instructions][minikube].
 
 **PLEASE NOTE: We will try to work on the GCP, but if for any reason this is not going to work, the Minikube is a pretty good alternative.**
 
