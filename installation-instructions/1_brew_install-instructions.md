@@ -3,9 +3,7 @@
 
 ## Installation instructions
 
-1. Open a terminal
-
-2. Type following command
+1. Download and install
 
 		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
