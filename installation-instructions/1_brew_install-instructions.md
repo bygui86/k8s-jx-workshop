@@ -1,5 +1,5 @@
 
-# Homebrew 
+# Homebrew (Mac OS X only)
 
 ## Installation instructions
 
