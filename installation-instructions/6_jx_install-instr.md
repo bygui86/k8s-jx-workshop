@@ -39,9 +39,10 @@
 
 		chmod +x jx
 
-	3. Move the binary in to your PATH
+	3. Link the binary in to your PATH
 
-		sudo mv jx /usr/local/bin
+		cd /usr/local/bin
+		sudo ln -s /home/<user>/<path>/<to>/jx
 
 ---
 
