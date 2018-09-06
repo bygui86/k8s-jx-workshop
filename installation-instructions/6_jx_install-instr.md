@@ -42,7 +42,8 @@
 	3. Link the binary in to your PATH
 
 		cd /usr/local/bin
-		sudo ln -s /home/<user>/<path>/<to>/jx
+		
+		sudo ln -s /home/\<user\>/\<path\>/\<to\>/jx
 
 ---
 
