@@ -31,6 +31,14 @@ First of all we need a couple of **FREE** accounts:
 
 ---
 
+## Workshop
+
+* If you landed directly on GitHub, open [this document][workshop-google-docs] to follow the steps of the workshop
+
+* If you come from the workshop steps document, go back to it and proceed ;)
+
+---
+
 ## Sample applications
 
 We have already prepared a [repo][k8s-jx-workshop] with a couple of sample applications:
@@ -65,3 +73,4 @@ We have already prepared a [repo][k8s-jx-workshop] with a couple of sample appli
 [jx]: https://jenkins-x.io/ "JenkinsX"
 [install-instruc]: https://github.com/Solidarchitectures/k8s-jx-workshop/tree/master/installation-instructions "Installation instructions"
 [k8s-jx-workshop]: https://github.com/Solidarchitectures/k8s-jx-workshop "k8s-jx-workshop"
+[workshop-google-docs]: http://bit.ly/id-cicd-workshop
