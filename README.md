@@ -17,19 +17,29 @@ First of all we need a couple of **FREE** accounts:
 
 ## 2. Configuring local environment
 
-1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, please install the **brew cli** following official [instructions][brew]. This is going to be really useful from now on. Linux users should have already by default apt-get or yum.
+1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, please install **homebrew** following official [instructions][brew]. This is going to be really useful from now on. Linux users should have already by default apt-get or yum.
 
 2. Install the **Google Cloud SDK**  using these [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
 
 3. Install the **Kubectl CLI** following these [instructions][kubectl]
 
-4. Install the **Minikube CLI** following official [instructions][minikube].
+4. Install the **Minikube** following official [instructions][minikube].
 
 **PLEASE NOTE: We will try to work on the GCP, but if for any reason this is not going to work, the Minikube is a pretty good alternative.**
 
 ---
 
-## 3. Sample applications for the Workshop
+## Workshop
+
+* If you landed directly on GitHub, open [this document][workshop-google-docs] to follow the steps of the workshop
+
+* If you come from the workshop steps document, go back to it and proceed ;)
+
+---
+
+## Sample applications
+
+We have already prepared a [repo][k8s-jx-workshop] with a couple of sample applications:
 
 * **producer-service**
 
@@ -48,8 +58,8 @@ First of all we need a couple of **FREE** accounts:
 
 
 <!-- Referenced links -->
+[workshop-tage]: https://workshoptage.ch/workshops/2018/end-to-end-continuous-delivery-on-kubernetes/ "WorkshopTage"
 [github]: https://github.com/join "GitHub"
-[local-instructions]: https://github.com/Solidarchitectures/k8s-jx-workshop/tree/master/installation-instructions "Instructions"
 [google]: https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&hl=en&flowName=GlifWebSignIn&flowEntry=SignUp "Google"
 [gcp]: https://console.cloud.google.com/freetrial?_ga=2.75722837.-1917212227.1535443408 "Google Cloud Platform"
 [brew]: https://brew.sh/ "brew"
@@ -59,5 +69,6 @@ First of all we need a couple of **FREE** accounts:
 [minikube]: https://github.com/kubernetes/minikube/releases "Minikube"
 [virtualbox]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
 [jx]: https://jenkins-x.io/ "JenkinsX"
-[workshop-tage]: https://workshoptage.ch/workshops/2018/end-to-end-continuous-delivery-on-kubernetes/ "WorkshopTage"
+[install-instruc]: https://github.com/Solidarchitectures/k8s-jx-workshop/tree/master/installation-instructions "Installation instructions"
 [k8s-jx-workshop]: https://github.com/Solidarchitectures/k8s-jx-workshop "k8s-jx-workshop"
+[workshop-google-docs]: http://bit.ly/id-cicd-workshop
