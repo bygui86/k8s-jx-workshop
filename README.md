@@ -1,9 +1,9 @@
 
 # End-to-End Continuous Delivery on Kubernetes - Preliminary steps
 
-We are looking forward to work with you at the [Workshop Tage 2018][workshop-tage] at the ETH Zurich!
+We are looking forward to working with you at the [Workshop Tage 2018][workshop-tage] at the ETH Zurich!
 
-## Required accounts
+## 1. Required accounts
 
 First of all we need a couple of **FREE** accounts:
 
@@ -15,23 +15,21 @@ First of all we need a couple of **FREE** accounts:
 
 ---
 
-## Configuring local environment
+## 2. Configuring local environment
 
 1. **[OPTIONAL]** **[MAC-OS-X-USERS]** If you are using MacOsX, please install the **brew cli** following official [instructions][brew]. This is going to be really useful from now on. Linux users should have already by default apt-get or yum.
 
-2. Install the **Google Cloud SDK** following official [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
+2. Install the **Google Cloud SDK**  using these [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
 
-3. Install the **Kubectl CLI** following official [instructions][kubectl]
+3. Install the **Kubectl CLI** following these [instructions][kubectl]
 
 4. Install the **Minikube CLI** following official [instructions][minikube].
-
-**PLEASE NOTE: in this [installation-instructions][local-instructions] subfolder you can also find some examples in order to install the tools**
 
 **PLEASE NOTE: We will try to work on the GCP, but if for any reason this is not going to work, the Minikube is a pretty good alternative.**
 
 ---
 
-## Sample applications
+## 3. Sample applications for the Workshop
 
 * **producer-service**
 
@@ -56,8 +54,8 @@ First of all we need a couple of **FREE** accounts:
 [gcp]: https://console.cloud.google.com/freetrial?_ga=2.75722837.-1917212227.1535443408 "Google Cloud Platform"
 [brew]: https://brew.sh/ "brew"
 [gcloud-sdk-pre]: https://cloud.google.com/sdk/install "Google Cloud SDK Prerequisites"
-[gcloud-sdk]: https://cloud.google.com/sdk/docs/downloads-interactive "Google Cloud SDK"
-[kubectl]: https://kubernetes.io/docs/tasks/tools/install-kubectl/ "Kubectl"
+[gcloud-sdk]: https://github.com/Solidarchitectures/k8s-jx-workshop/blob/master/installation-instructions/3_google-cloud-sdk_install-instr.md "Google Cloud SDK"
+[kubectl]: hhttps://github.com/Solidarchitectures/k8s-jx-workshop/blob/master/installation-instructions/4_kubectl_install-instr.md "Kubectl"
 [minikube]: https://github.com/kubernetes/minikube/releases "Minikube"
 [virtualbox]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
 [jx]: https://jenkins-x.io/ "JenkinsX"
