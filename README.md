@@ -29,7 +29,7 @@ First of all we need a couple of **FREE** accounts:
 
 ---
 
-## Workshop
+## 3. Workshop
 
 * If you landed directly on GitHub, open [this document][workshop-google-docs] to follow the steps of the workshop
 
@@ -37,7 +37,7 @@ First of all we need a couple of **FREE** accounts:
 
 ---
 
-## Sample applications
+## 4. Sample applications
 
 We have already prepared a [repo][k8s-jx-workshop] with a couple of sample applications:
 
