@@ -21,9 +21,9 @@ First of all we need a couple of **FREE** accounts:
 
 2. Install the **Google Cloud SDK**  using these [instructions][gcloud-sdk]. **Before install**, have a look on [prerequisites][gcloud-sdk-pre].
 
-3. Install the **Kubectl CLI** following these [instructions][kubectl]
+3. Install the **Kubectl command line interface** following these [instructions][kubectl]
 
-4. Install the **Minikube** following official [instructions][minikube].
+4. As a worst case backup install the **Minikube** following official [instructions][minikube].
 
 **PLEASE NOTE: We will try to work on the GCP, but if for any reason this is not going to work, the Minikube is a pretty good alternative.**
 
@@ -65,7 +65,7 @@ We have already prepared a [repo][k8s-jx-workshop] with a couple of sample appli
 [brew]: https://brew.sh/ "brew"
 [gcloud-sdk-pre]: https://cloud.google.com/sdk/install "Google Cloud SDK Prerequisites"
 [gcloud-sdk]: https://github.com/Solidarchitectures/k8s-jx-workshop/blob/master/installation-instructions/3_google-cloud-sdk_install-instr.md "Google Cloud SDK"
-[kubectl]: hhttps://github.com/Solidarchitectures/k8s-jx-workshop/blob/master/installation-instructions/4_kubectl_install-instr.md "Kubectl"
+[kubectl]: https://github.com/Solidarchitectures/k8s-jx-workshop/blob/master/installation-instructions/4_kubectl_install-instr.md "Kubectl"
 [minikube]: https://github.com/kubernetes/minikube/releases "Minikube"
 [virtualbox]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
 [jx]: https://jenkins-x.io/ "JenkinsX"
